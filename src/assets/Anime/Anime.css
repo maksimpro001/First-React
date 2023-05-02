@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.Anime {
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.Anime__player {
+    width: 100%;
+    text-align: center;
+}
+
+.Anime__player-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.Anime__player-video {
+    width: 100%;
+    height: 470px;
+    background: #0F0F0F;
+    border-radius: 12px;
+    margin: 25px 0 35px 0;
+} 
+
+.wraper-anime {
+    margin: auto;
+    max-width: 810px;
+    width: 100%;
+} 
+
+.Anime__details {
+    margin: auto;
+    max-width: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Anime__details-img {
+    border-radius: 12px;
+    height: 380px;
+    width: 270px;
+    object-fit: cover;
+}
+
+.Anime__details-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Anime__details-text-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.Anime__details-text-desc--text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.07em;
+
+    color: #868686;
+}
+
+.Anime__description {
+    padding: 35px 0;
+}
+
+.Anime__description-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;    
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.Anime__description-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.07em;
+
+    color: #868686;
+}
